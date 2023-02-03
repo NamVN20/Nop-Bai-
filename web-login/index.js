@@ -1,7 +1,5 @@
 let secretNum = Math.ceil(Math.random() * 100 + 1);
 
-
-
 while(true){
     let predictNum = prompt('Nhap con so du doan: ');
     console.log("So du doan: " + predictNum);

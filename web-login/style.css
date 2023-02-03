@@ -3,7 +3,8 @@ body{
 }
 
 #container{
-    background-image: url("https://lolstatic-a.akamaihd.net/rso-login-page/3.2.35/assets/arcane_dsktp_centerAlignedCrd_BG_2x.jpg");
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg");
+    background-size: cover;  
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -34,33 +35,33 @@ body{
 }
 
 #input{
-    width: 33vw;
     height: 8vh;
-    margin: 7px auto;
+    margin: 16px 32px;
 }
 
 #login-input{
     display: flex;
     flex-direction: column;
-    
 }
 
 #another-login-but{
     display: flex;
-    justify-content:space-around
+    justify-content: space-evenly;
 }
 
 #stay{
     display: flex;
-
+    margin: 16px 32px;
 }
 
 #submit-but{
     display: flex;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 #create-acc{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
